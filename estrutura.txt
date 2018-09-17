@@ -1,0 +1,64 @@
+USE [REINF]
+GO
+
+INSERT INTO [dbo].[R1000]
+           ([iniValid]
+           ,[fimValid]
+           ,[tpAmb]
+           ,[procEmi]
+           ,[verProc]
+           ,[tpInsc]
+           ,[nrInscr]
+           ,[classTrib]
+           ,[indEscrituracao]
+           ,[indDesoneracao]
+           ,[indAcordoIsenMulta]
+           ,[indSitPJ]
+           ,[nmCtt]
+           ,[cpfCtt]
+           ,[foneFixo]
+           ,[foneCel]
+           ,[email]
+           ,[ideEFR]
+           ,[cnpjEFR]
+           ,[operacao]
+           ,[pai]
+           ,[tpAtividade]
+           ,[indObra]
+           ,[tpServ]
+           ,[nrCNO]
+           ,[infoCPRB]
+           ,[usuario]
+           ,[transmitido])
+     VALUES
+           (<iniValid, datetime,>
+           ,<fimValid, datetime,>
+           ,<tpAmb, varchar(1),>
+           ,<procEmi, varchar(1),>
+           ,<verProc, varchar(20),>
+           ,<tpInsc, varchar(1),>
+           ,<nrInscr, varchar(14),>
+           ,<classTrib, varchar(2),>
+           ,<indEscrituracao, varchar(1),>
+           ,<indDesoneracao, varchar(1),>
+           ,<indAcordoIsenMulta, varchar(1),>
+           ,<indSitPJ, varchar(1),>
+           ,<nmCtt, varchar(70),>
+           ,<cpfCtt, varchar(11),>
+           ,<foneFixo, varchar(13),>
+           ,<foneCel, varchar(13),>
+           ,<email, varchar(60),>
+           ,<ideEFR, varchar(1),>
+           ,<cnpjEFR, varchar(14),>
+           ,<operacao, int,>
+           ,<pai, int,>
+           ,<tpAtividade, varchar(3),>
+           ,<indObra, varchar(2),>
+           ,<tpServ, varchar(10),>
+           ,<nrCNO, varchar(50),>
+           ,<infoCPRB, int,>
+           ,<usuario, int,>
+           ,<transmitido, bit,>)
+GO
+
+

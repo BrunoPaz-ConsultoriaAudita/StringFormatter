@@ -1,0 +1,51 @@
+USE [REINF]
+GO
+
+/****** Object:  Table [dbo].[R1000]    Script Date: 06/09/2018 17:12:09 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[R1000](
+	[codigo] [int] IDENTITY(1,1) NOT NULL,
+	[iniValid] [datetime] NULL,
+	[fimValid] [datetime] NULL,
+	[tpAmb] [varchar](1) NULL,
+	[procEmi] [varchar](1) NULL,
+	[verProc] [varchar](20) NULL,
+	[tpInsc] [varchar](1) NULL,
+	[nrInscr] [varchar](14) NULL,
+	[classTrib] [varchar](2) NULL,
+	[indEscrituracao] [varchar](1) NULL,
+	[indDesoneracao] [varchar](1) NULL,
+	[indAcordoIsenMulta] [varchar](1) NULL,
+	[indSitPJ] [varchar](1) NULL,
+	[nmCtt] [varchar](70) NULL,
+	[cpfCtt] [varchar](11) NULL,
+	[foneFixo] [varchar](13) NULL,
+	[foneCel] [varchar](13) NULL,
+	[email] [varchar](60) NULL,
+	[ideEFR] [varchar](1) NULL,
+	[cnpjEFR] [varchar](14) NULL,
+	[operacao] [int] NULL,
+	[pai] [int] NULL,
+	[tpAtividade] [varchar](3) NULL,
+	[indObra] [varchar](2) NULL,
+	[tpServ] [varchar](10) NULL,
+	[nrCNO] [varchar](50) NULL,
+	[infoCPRB] [int] NULL,
+	[usuario] [int] NULL,
+	[transmitido] [bit] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
