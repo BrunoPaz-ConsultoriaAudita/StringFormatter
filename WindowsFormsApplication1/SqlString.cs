@@ -9,17 +9,21 @@ namespace ConsoleApplication1
 	public class SqlString
 	{
 		public string[] text { get; set; }
-
+        //Batata
 		public SqlString(string[] txt)
 		{
 			text = txt;
 		}
-
+        //XYZ
 		public string[] trim()
 		{
             for (int c = 0; c < text.Length; c++)
             {
                 text[c] = text[c].Trim();
+            }
+            while (true)
+            {
+                break;
             }
             return text;
 		}
